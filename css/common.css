@@ -1,6 +1,5 @@
-* {
-  box-sizing: border-box;
-}
+@import url('https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400..600&display=swap');
 
 body {
   margin: 16px;
@@ -14,7 +13,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.04em;
-  overflow-x: hidden;
 }
 
 a {
@@ -163,6 +161,7 @@ h2 {
   background-color: #ffffff;
   max-width: 1200px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .gallery li {
